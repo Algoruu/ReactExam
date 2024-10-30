@@ -3,13 +3,30 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="container">
-      <h1 className='test'>Hello, 리액트!!!</h1>
-      <p>반갑습니다.</p>
+  // let name = "리액트";
+
+  // return (
+  //   <div className="container">
+  //     <h1 className='test'>Hello, 
+  //     {
+  //       name === '리액트' ? (<h1>YES</h1>): (<h1>NO</h1>) //null도 가능
+  //     }!!!</h1>
+  //     <p>반갑습니다.</p>
+  //   </div>
+  // );
+  const port = undefined;
+
+  return(
+    <div>
+      {
+        port || '포트를 설정하지 않았습니다.' // port || '3000' 일반적으로 포트 설정할 때 사용
+      }
     </div>
-  );
+  )
+
 }
+
+
 
 // function App(){
 //   return React.createElement("div", null, "Hello", "리액트!!!",
