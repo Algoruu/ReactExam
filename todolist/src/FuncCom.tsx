@@ -1,6 +1,6 @@
 import React from "react";
 
-function FuncCom()
+const FuncCom = () =>
 {
     return(
         <div>
