@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ClassCom from './ClassCom';
 import FuncCom from './FuncCom';
+import Todolist from './Todolist';
 
 {/* 
   작성자 : kny
@@ -32,8 +33,10 @@ function App() {
       
       <br/>
       <input/> */}
-      <ClassCom></ClassCom>
-      <FuncCom></FuncCom>
+      {/* <ClassCom></ClassCom>
+      <FuncCom></FuncCom> */}
+      <Todolist></Todolist>
+
     </div>
   );
 
