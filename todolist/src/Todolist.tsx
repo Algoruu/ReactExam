@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 
+type Todo = {
+    id : number;
+    text : string;
+    isChecked : boolean;
+};
+
 const Todolist : React.FC = () => {
     const title : string = "오늘 할 일";
 
@@ -22,5 +28,6 @@ const Todolist : React.FC = () => {
         </div>
 
     )
-}
+};
+
 export default Todolist;
