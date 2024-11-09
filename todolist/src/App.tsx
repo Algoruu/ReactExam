@@ -37,8 +37,6 @@ function App() {
       {/* <ClassCom></ClassCom>
       <FuncCom></FuncCom> */}
       <Todolist></Todolist>
-      <MapTest></MapTest>
-
     </div>
   );
 
