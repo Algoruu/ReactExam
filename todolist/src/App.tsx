@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Todolist from './Todolist';
 import Clock from './Timer';
+import MyWeather from './MyWeather';
 
 {/* 
   작성자 : kny
@@ -25,7 +26,8 @@ function App() {
   return (
     <div className='container'>
       <Todolist></Todolist>
-      <Clock></Clock>
+      {/* <Clock></Clock> */}
+      <MyWeather weather="맑음">일기예보</MyWeather>
     </div>
   );
 
