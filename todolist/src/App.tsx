@@ -1,10 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ClassCom from './ClassCom';
-import FuncCom from './FuncCom';
 import Todolist from './Todolist';
-import MapTest from './MapTest';
+import Clock from './Timer';
 
 {/* 
   작성자 : kny
@@ -26,17 +24,8 @@ function App() {
 
   return (
     <div className='container'>
-      {/* <h1 className='test'>Hello, 
-      {
-        name === '리액트' ? (<h1>YES</h1>): (<h1>NO</h1>) // name === '리액트' ? (<h1>YES</h1>): null도 가능
-      }!!!</h1>
-      <p>반갑습니다.</p>
-      
-      <br/>
-      <input/> */}
-      {/* <ClassCom></ClassCom>
-      <FuncCom></FuncCom> */}
       <Todolist></Todolist>
+      <Clock></Clock>
     </div>
   );
 
