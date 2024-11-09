@@ -4,6 +4,7 @@ import './App.css';
 import ClassCom from './ClassCom';
 import FuncCom from './FuncCom';
 import Todolist from './Todolist';
+import MapTest from './MapTest';
 
 {/* 
   작성자 : kny
@@ -36,6 +37,7 @@ function App() {
       {/* <ClassCom></ClassCom>
       <FuncCom></FuncCom> */}
       <Todolist></Todolist>
+      <MapTest></MapTest>
 
     </div>
   );
