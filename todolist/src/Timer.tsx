@@ -27,7 +27,7 @@ const Clock : React.FC = () => {
 
     return (
         <div>
-            현재 시간 : {time.toLocaleTimeString()}
+            현재 시간 : {time.toLocaleDateString()} {time.toLocaleTimeString()}
         </div>
     )
 }
